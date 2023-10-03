@@ -33,7 +33,8 @@ int _printf(const char *format, ...)
 				default:
 					break;
 			}
-			i++;
+			i += 2;
+			continue;
 		}
 		i++;
 		count++;
